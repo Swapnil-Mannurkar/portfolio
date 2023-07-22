@@ -1,0 +1,146 @@
+.AMContainer {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.AMImgContainer {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.AMImgContainer img {
+  width: 25rem;
+  height: 30rem;
+  padding-left: 4.5rem;
+  filter: opacity(30%);
+}
+
+/* .AMImgContainer::before {
+    content: "/////////////////";
+}
+
+.AMImgContainer::after {
+    content: "/////////////////";
+    position: relative;
+    top: 28.8rem;
+    margin-left: 1.5rem;
+} */
+
+.AMInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  flex: 1;
+  position: relative;
+}
+
+.AMInfoContainer h1 {
+  font-size: 10rem;
+  text-align: left;
+  color: #ffffff22;
+}
+
+.AMInfoContainer h2 {
+  position: relative;
+  top: -5.75rem;
+  margin-left: 3rem;
+  font-size: 2rem;
+  background-image: linear-gradient(to right, #fff 0%, #444444 60%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-decoration: none;
+}
+
+.AMInfoContent {
+  padding-right: 13.5rem;
+  text-align: justify;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: -3rem;
+  gap: 1.5rem;
+}
+
+.AMInfoContainer::before {
+  content: "///////////////////////////////////////////////////";
+}
+
+.AMInfoContainer::after {
+  content: "///////////////////////////////////////////////////";
+  margin-left: 14rem;
+}
+
+@media screen and (max-width: 960px) {
+  .AMContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  .AMImgContainer img {
+    width: 22rem;
+    height: 15rem;
+    padding-left: 0rem;
+    filter: opacity(10%);
+  }
+
+  .AMInfoContainer {
+    background-color: transparent;
+    justify-content: flex-start;
+    color: #ffffff66;
+    top: -9rem;
+  }
+
+  .AMInfoContainer h1 {
+    font-size: 6rem;
+    padding: 0;
+    text-align: center;
+    background-color: transparent;
+  }
+
+  .AMInfoContainer h2 {
+    font-size: 1.3rem;
+    top: -3.8rem;
+    margin-left: 3rem;
+    background-image: linear-gradient(to right, #fff 0%, #444444 90%);
+    color: #aaa;
+  }
+
+  .AMInfoContent {
+    padding: 0 1.2rem;
+    text-align: justify;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: -2.2rem;
+    gap: 1.5rem;
+    background-color: transparent;
+  }
+
+  .AMInfoContent p {
+    background-color: transparent;
+    color: #ccc;
+    font-size: 0.8rem;
+  }
+
+  .AMInfoContainer::before {
+    content: "//////////////////////////////////";
+    margin-left: 1.2rem;
+  }
+
+  .AMInfoContainer::after {
+    content: "//////////////////////////////////";
+    margin-left: 10rem;
+    position: relative;
+    top: -0.2rem;
+  }
+}

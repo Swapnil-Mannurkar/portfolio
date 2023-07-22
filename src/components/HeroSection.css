@@ -1,0 +1,67 @@
+.HScontainer {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.HSPhoto img {
+  height: 30vh;
+  width: 30vh;
+  border-radius: 50%;
+  filter: grayscale(80%);
+  border: 2px solid #ffffff;
+  padding: 6px;
+}
+
+.HSName {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.HSIntro {
+  display: flex;
+}
+
+.HSButton button {
+  border: 2px solid #585858;
+  padding: 8px;
+  font-size: 0.8rem;
+}
+
+.HSButton button a {
+  background-image: linear-gradient(to right, #ffffff 0%, #787878 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 960px) {
+  .HScontainer {
+    height: 45vh;
+  }
+
+  .HSPhoto img {
+    height: 20vh;
+    width: 20vh;
+  }
+
+  .HSName {
+    font-size: 1.2rem;
+  }
+
+  .HSIntro {
+    font-size: 0.8rem;
+  }
+
+  .HSButton button {
+    padding: 6px;
+    font-size: 0.6rem;
+  }
+}
