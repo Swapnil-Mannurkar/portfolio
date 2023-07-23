@@ -13,7 +13,7 @@ const Navbar = () => {
     }
 
     const clickedStyles = {
-        top: 86,
+        top: 70,
         transition: 'all 0.5s ease'
     };
 
