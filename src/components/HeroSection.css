@@ -1,4 +1,5 @@
 .HScontainer {
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +44,7 @@
 
 @media screen and (max-width: 960px) {
   .HScontainer {
-    /* height: 80vh; */
+    height: 45vh;
   }
 
   .HSPhoto img {

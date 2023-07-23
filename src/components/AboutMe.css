@@ -1,83 +1,75 @@
 .AMContainer {
   height: 80vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(0, 0, 0) !important;
+}
+
+.AMImgCont {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../images/About.jpg");
+  background-size: 50% 80%;
+  background-repeat: no-repeat;
+  background-position: 60% center;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+}
+
+.AMInfoCont {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 80%;
+  height: 80vh;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
-}
-
-.AMImgContainer {
-  display: flex;
   justify-content: center;
-  flex: 1;
 }
 
-.AMImgContainer img {
-  width: 25rem;
-  height: 30rem;
-  padding-left: 4.5rem;
-  filter: opacity(30%);
+.AMInfoCont h1 {
+  font-size: 8rem;
+  font-weight: 1000;
+  color: #ffffff44;
+  background-color: transparent;
 }
 
-/* .AMImgContainer::before {
-    content: "/////////////////";
-}
-
-.AMImgContainer::after {
-    content: "/////////////////";
-    position: relative;
-    top: 28.8rem;
-    margin-left: 1.5rem;
-} */
-
-.AMInfoContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  flex: 1;
+.AMInfoCont h2 {
+  font-size: 1.7rem;
+  background-color: transparent;
   position: relative;
+  top: -13%;
 }
 
-.AMInfoContainer h1 {
-  font-size: 10rem;
-  text-align: left;
-  color: #ffffff22;
-}
-
-.AMInfoContainer h2 {
-  position: relative;
-  top: -5.75rem;
-  margin-left: 3rem;
-  font-size: 2rem;
-  background-image: linear-gradient(to right, #fff 0%, #444444 60%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  text-decoration: none;
-}
-
-.AMInfoContent {
-  padding-right: 13.5rem;
-  text-align: justify;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  top: -3rem;
-  gap: 1.5rem;
-}
-
-.AMInfoContainer::before {
+.AMInfoCont::before {
   content: "///////////////////////////////////////////////////";
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
 }
 
-.AMInfoContainer::after {
+.AMInfoCont::after {
   content: "///////////////////////////////////////////////////";
-  margin-left: 14rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 @media screen and (max-width: 960px) {
-    .AMContainer {
-        flex-direction: column;
-    }
+  .AMContainer {
+    grid-template-columns: 100%;
+  }
+
+  .AMImgCont {
+    height: 40vh;
+    background-image: url("../images/img1.jpg");
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: multiply;
+  }
+
+  .AMInfoCont {
+    height: 40vh;
+  }
 }
