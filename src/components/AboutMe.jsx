@@ -1,12 +1,10 @@
 import React from 'react'
 import './AboutMe.css'
-import Img from '../images/About.jpg'
 
 const AboutMe = () => {
   return (
     <div className='AMContainer'>
       <div className='AMImgCont'>
-
       </div>
       <div className='AMInfoCont'>
         <h1>ABOUT</h1>

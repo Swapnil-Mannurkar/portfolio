@@ -8,11 +8,11 @@ import Development from './components/UnderDevelopment'
 function App() {
   return (
     <div>
-      <Development />
+      {/* <Development /> */}
 
-      {/* <Navbar />
+      <Navbar />
       <HeroSection />
-      <AboutMe /> */}
+      <AboutMe />
     </div>
   );
 }
