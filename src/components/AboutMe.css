@@ -67,7 +67,7 @@
 
 @media screen and (max-width: 960px) {
   .AMContainer {
-    height: 90vh;
+    height: 80vh;
     grid-template-columns: 100%;
   }
 
@@ -79,7 +79,7 @@
   }
 
   .AMInfoCont {
-    height: 50vh;
+    height: 40vh;
     width: 90%;
     display: block;
     position: relative;
