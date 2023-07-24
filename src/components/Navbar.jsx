@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import useMediaQuery from '@mui/material/useMediaQuery';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -22,8 +23,8 @@ const Navbar = () => {
         transition: 'all 0.5s ease'
     };
 
-    const laptopView = { 
-        display : 'flex'
+    const laptopView = {
+        display: 'flex'
     };
 
     const menu = screenSize ? click ? clickedStyles : notClickedStyled : laptopView;
@@ -41,10 +42,51 @@ const Navbar = () => {
 
             <div className='navItems' style={menu}>
                 <ul>
-                    <li><a href='/portfolio'>About Me</a></li>
-                    <li><a href='/portfolio'>Experience</a></li>
-                    <li><a href='/portfolio'>Projects</a></li>
-                    <li><a href='/portfolio'>Achievements</a></li>
+                    <Link
+                        activeClass="active"
+                        to="about-me-section"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className='link'
+                        onClick={toggleIcon}
+                    >
+                        About Me
+                    </Link>
+                    <Link
+                        activeClass="active"
+                        to="about-me-section"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className='link'
+                        onClick={toggleIcon}
+                    >Experience
+                    </Link>
+                    <Link
+                        activeClass="active"
+                        to="about-me-section"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className='link'
+                        onClick={toggleIcon}
+                    >Projects
+                    </Link>
+                    <Link
+                        activeClass="active"
+                        to="about-me-section"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className='link'
+                        onClick={toggleIcon}
+                    >Achievements
+                    </Link>
                 </ul>
                 <button><a>Contact me</a></button>
             </div>

@@ -1,5 +1,5 @@
 .logo .name,
-.navItems ul li a,
+.link,
 .navItems button a {
   background-image: linear-gradient(to right, #fff 0%, #787878 100%);
   -webkit-background-clip: text;
@@ -8,6 +8,7 @@
   -moz-text-fill-color: transparent;
   text-decoration: none;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .container {
