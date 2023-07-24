@@ -41,10 +41,10 @@ const Navbar = () => {
 
             <div className='navItems' style={menu}>
                 <ul>
-                    <li><a href='/'>About Me</a></li>
-                    <li><a href='/'>Experience</a></li>
-                    <li><a href='/'>Projects</a></li>
-                    <li><a href='/'>Achievements</a></li>
+                    <li><a href='/portfolio'>About Me</a></li>
+                    <li><a href='/portfolio'>Experience</a></li>
+                    <li><a href='/portfolio'>Projects</a></li>
+                    <li><a href='/portfolio'>Achievements</a></li>
                 </ul>
                 <button><a>Contact me</a></button>
             </div>
