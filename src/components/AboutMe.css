@@ -94,7 +94,7 @@
   .AMInfoCont h2 {
     font-size: 1.1rem;
     text-align: center;
-    top: -18%;
+    top: -7.5vh;
   }
 
   .AMInfoCont::before { 
