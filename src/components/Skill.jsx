@@ -12,7 +12,7 @@ const iconStyle = {
 
 const mysqlStyle = {
     width: '45px',
-    filter: 'grayscale(100%) brightness(0%)'
+    filter: 'grayscale(0%) brightness(0%)'
 };
 
 const Skill = (props) => {
