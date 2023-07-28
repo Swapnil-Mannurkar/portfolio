@@ -1,0 +1,32 @@
+[
+  {
+    "name": "HTML5",
+    "year": "2 years",
+    "level": "Intermediate",
+    "icon": "FaHtml5"
+  },
+  {
+    "name": "CSS3",
+    "year": "2 years",
+    "level": "Intermediate",
+    "icon": "FaCss3"
+  },
+  {
+    "name": "JavaScript",
+    "year": "1 year",
+    "level": "Intermediate",
+    "icon": "FaJs"
+  },
+  {
+    "name": "React.js",
+    "year": "0.5 year",
+    "level": "Beginner",
+    "icon": "FaReact"
+  },
+  {
+    "name": "MySQL",
+    "year": "1 year",
+    "level": "Intermediate",
+    "icon": "MySQL"
+  }
+]

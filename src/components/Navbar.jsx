@@ -42,51 +42,10 @@ const Navbar = () => {
 
             <div className='navItems' style={menu}>
                 <ul>
-                    <Link
-                        activeClass="active"
-                        to="about-me-section"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                        className='link'
-                        onClick={toggleIcon}
-                    >
-                        About Me
-                    </Link>
-                    <Link
-                        activeClass="active"
-                        to="about-me-section"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                        className='link'
-                        onClick={toggleIcon}
-                    >Experience
-                    </Link>
-                    <Link
-                        activeClass="active"
-                        to="about-me-section"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                        className='link'
-                        onClick={toggleIcon}
-                    >Projects
-                    </Link>
-                    <Link
-                        activeClass="active"
-                        to="about-me-section"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                        className='link'
-                        onClick={toggleIcon}
-                    >Achievements
-                    </Link>
+                    <Link activeClass="active" to="about-me-section" smooth={true} className='link' onClick={toggleIcon}>About Me</Link>
+                    <Link activeClass="active" to="experience-section" smooth={true} className='link' onClick={toggleIcon}>Experience</Link>
+                    <Link activeClass="active" to="about-me-section" smooth={true} className='link' onClick={toggleIcon}>Projects</Link>
+                    <Link activeClass="active" to="about-me-section" smooth={true} className='link' onClick={toggleIcon}>Achievements</Link>
                 </ul>
                 <button><a>Contact me</a></button>
             </div>

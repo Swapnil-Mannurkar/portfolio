@@ -1,0 +1,26 @@
+.skillSect {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+}
+
+.iconSect {
+  width: 100%;
+}
+
+.skillExp {
+  width: 100%;
+  display: grid;
+  align-self: center;
+}
+
+.skillExp p {
+  color: #999999;
+}
+
+.iconSect {
+  align-self: center;
+  font-size: 0.7rem;
+  text-align: center;
+}

@@ -1,0 +1,68 @@
+.ExpHeader {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 1000;
+  letter-spacing: 0.5rem;
+  color: #ffffff44;
+  margin-top: 30px;
+}
+
+.ExpSubHeader {
+  text-align: center;
+  font-size: 2rem;
+  position: relative;
+  top: -3.5rem;
+  color: #fff;
+}
+
+.ExpContainer {
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.ExpCont {
+  height: 81vh;
+}
+
+.ExpInfoCont {
+  height: 70vh;
+  display: grid;
+  width: 87.5%;
+  grid: auto / auto auto;
+}
+
+@media screen and (max-width: 960px) {
+  .ExpHeader {
+    font-size: 3.3rem;
+    letter-spacing: 0.2rem;
+    margin-top: 30px;
+  }
+
+  .ExpSubHeader {
+    font-size: 1.5rem;
+    top: -2.5rem;
+  }
+
+  .ExpContainer {
+    height: 145vh;
+    grid-template-columns: 100%;
+    justify-items: center;
+  }
+
+  .ExpCont {
+    width: 100%;
+    height: 60vh;
+    margin: -5% 0 0 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .ExpInfoCont {
+    height: 80vh;
+    margin-top: -10%;
+    width: 90%;
+    grid: auto / 1fr;
+  }
+}

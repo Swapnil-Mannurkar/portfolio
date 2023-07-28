@@ -1,0 +1,19 @@
+.SkillCardCont {
+  display: grid;
+  width: 60%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: auto auto auto 25.5%;
+  border-radius: 15px;
+  padding: 20px 0;
+  box-shadow: 0px 0px 5px 1px #ffffff4b;
+}
+
+@media screen and (max-width: 960px) {
+  .SkillCardCont {
+    width: 85%;
+    height: 85%;
+    margin: 0;
+    padding: 10px 0;
+  }
+}

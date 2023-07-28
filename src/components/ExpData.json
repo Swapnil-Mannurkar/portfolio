@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "FaLaptop",
+    "title": "Freelance",
+    "details": "I have worked as a freelancer for a year and two months, during which my team and I have developed several websites."
+  },
+  {
+    "icon": "FaNetworkWired",
+    "title": "Internship",
+    "details": "Throughout my 8-month internship as a frontend web developer at TokSkill, my responsibility involved creating webpages."
+  },
+  {
+    "icon": "FaGlobe",
+    "title": "Frontend Web Developer",
+    "details": "I possess a combined experience of two years, encompassing both freelancing and an internship."
+  }
+]
