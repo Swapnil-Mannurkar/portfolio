@@ -7,14 +7,13 @@ import ExpData from './ExpData.json'
 const Experience = () => {
     return (
         <>
-            <h1 className='ExpHeader'>EXPERIENCE</h1>
+            <h1 className='ExpHeader' id="experience-section">EXPERIENCE</h1>
             <h2 className='ExpSubHeader'>As a Frontend Web Developer</h2>
-            <div className='ExpContainer' id="experience-section">
+            <div className='ExpContainer'>
                 <div className='ExpCont'>
                     <SkillCard />
                 </div>
                 <div className='ExpInfoCont'>
-                    {/* <div className='InfoCard'> */}
                     {ExpData.map((exp, index) => (
                         <ExpCard
                             key={index}
@@ -23,10 +22,6 @@ const Experience = () => {
                             details={exp.details}
                         />
                     ))}
-                    {/* </div>
-                    <div className='InfoCard'>
-                        <ExpCard />
-                    </div> */}
                 </div>
             </div>
         </>

@@ -44,7 +44,7 @@ const Navbar = () => {
                 <ul>
                     <Link activeClass="active" to="about-me-section" smooth={true} className='link' onClick={toggleIcon}>About Me</Link>
                     <Link activeClass="active" to="experience-section" smooth={true} className='link' onClick={toggleIcon}>Experience</Link>
-                    <Link activeClass="active" to="about-me-section" smooth={true} className='link' onClick={toggleIcon}>Projects</Link>
+                    <Link activeClass="active" to="project-section" smooth={true} className='link' onClick={toggleIcon}>Projects</Link>
                     <Link activeClass="active" to="about-me-section" smooth={true} className='link' onClick={toggleIcon}>Achievements</Link>
                 </ul>
                 <button><a>Contact me</a></button>
