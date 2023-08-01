@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import useMediaQuery from '@mui/material/useMediaQuery';
@@ -13,9 +13,29 @@ const Navbar = () => {
         setClick((prevState) => !prevState);
     }
 
+    useEffect(() => {
+        const handleScrollLock = () => {
+            if (screenSize && click) {
+                // Lock scroll when the mobile menu is open
+                document.body.style.overflow = 'hidden';
+            } else {
+                // Restore scroll when the mobile menu is closed
+                document.body.style.overflow = 'unset';
+            }
+        };
+
+        // Add event listener for scroll lock when the click state changes
+        handleScrollLock();
+
+        // Clean up the event listener on component unmount
+        return () => {
+            document.body.style.overflow = 'unset'; // Always restore scroll on unmount
+        };
+    }, [screenSize, click]);
+
     const clickedStyles = {
         top: 70,
-        transition: 'all 0.5s ease'
+        transition: 'all 0.5s ease',
     };
 
     const notClickedStyled = {
@@ -28,8 +48,6 @@ const Navbar = () => {
     };
 
     const menu = screenSize ? click ? clickedStyles : notClickedStyled : laptopView;
-
-    //Need to add scroll lock feature after opening the navbar in mobile view
 
     return (
         <div className='container'>
@@ -45,7 +63,6 @@ const Navbar = () => {
                     <Link activeClass="active" to="about-me-section" smooth={true} className='link' onClick={toggleIcon}>About Me</Link>
                     <Link activeClass="active" to="experience-section" smooth={true} className='link' onClick={toggleIcon}>Experience</Link>
                     <Link activeClass="active" to="project-section" smooth={true} className='link' onClick={toggleIcon}>Projects</Link>
-                    <Link activeClass="active" to="about-me-section" smooth={true} className='link' onClick={toggleIcon}>Achievements</Link>
                 </ul>
                 <button><a>Contact me</a></button>
             </div>
