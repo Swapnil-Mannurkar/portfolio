@@ -52,7 +52,7 @@ const Navbar = () => {
     return (
         <div className='container'>
             <div className='logo'>
-                <a href='mailto:mannurkarswapnil@gmail.com' target='_blank' rel="noreferrer" style={{ textDecoration: "none" }}>😎 <span className='name'>mannurkarswapnil@gmail.com</span></a>
+                <a href='mailto:mannurkarswapnil@gmail.com' target='_blank' rel="noreferrer" style={{ textDecoration: "none" }}>😎<span className='name' style={{fontWeight: '700'}}>&nbsp;mannurkarswapnil@gmail.com</span></a>
                 <div onClick={toggleIcon}>
                     {screenSize && (!click ? <MenuIcon sx={{ fontSize: 30 }} /> : <CloseIcon sx={{ fontSize: 30 }} />)}
                 </div >
@@ -60,11 +60,11 @@ const Navbar = () => {
 
             <div className='navItems' style={menu}>
                 <ul>
-                    <Link activeClass="active" to="about-me-section" smooth={true} className='link' onClick={toggleIcon}>About Me</Link>
-                    <Link activeClass="active" to="experience-section" smooth={true} className='link' onClick={toggleIcon}>Experience</Link>
-                    <Link activeClass="active" to="project-section" smooth={true} className='link' onClick={toggleIcon}>Projects</Link>
+                    <Link activeClass="active" to="about-me-section" smooth={true} className='link' onClick={toggleIcon}><h4>About Me</h4></Link>
+                    <Link activeClass="active" to="experience-section" smooth={true} className='link' onClick={toggleIcon}><h4>Experience</h4></Link>
+                    <Link activeClass="active" to="project-section" smooth={true} className='link' onClick={toggleIcon}><h4>Projects</h4></Link>
                 </ul>
-                <button><a href='/portfolio'>Contact me</a></button>
+                <button><a href='/portfolio' style={{fontWeight: '700'}}>Contact me</a></button>
             </div>
         </div>
     );

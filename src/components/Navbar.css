@@ -1,13 +1,12 @@
 .logo .name,
 .link,
-.navItems button a {
+.navItems button a, h4 {
   background-image: linear-gradient(to right, #fff 0%, #787878 100%);
-  -webkit-background-clip: text;
+  background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   text-decoration: none;
-  font-weight: 600;
   cursor: pointer;
 }
 

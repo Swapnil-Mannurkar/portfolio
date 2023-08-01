@@ -14,7 +14,7 @@ const ExpCard = (props) => {
             <div className='iconDivStyle'>
                 {getIcon(props.icon)}
             </div>
-            <h2 className='ExpHead'>{props.title}</h2>
+            <h4 className='ExpHead'>{props.title}</h4>
             <p className='ExpDetail'>{props.details}</p>
         </div >
     )
