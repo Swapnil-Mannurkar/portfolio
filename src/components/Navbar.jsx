@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import useMediaQuery from '@mui/material/useMediaQuery';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -52,7 +52,7 @@ const Navbar = () => {
     return (
         <div className='container'>
             <div className='logo'>
-                <a href='mailto:mannurkarswapnil@gmail.com' target='_blank' style={{ textDecoration: "none" }}>😎 <span className='name'>mannurkarswapnil@gmail.com</span></a>
+                <a href='mailto:mannurkarswapnil@gmail.com' target='_blank' rel="noreferrer" style={{ textDecoration: "none" }}>😎 <span className='name'>mannurkarswapnil@gmail.com</span></a>
                 <div onClick={toggleIcon}>
                     {screenSize && (!click ? <MenuIcon sx={{ fontSize: 30 }} /> : <CloseIcon sx={{ fontSize: 30 }} />)}
                 </div >
@@ -64,7 +64,7 @@ const Navbar = () => {
                     <Link activeClass="active" to="experience-section" smooth={true} className='link' onClick={toggleIcon}>Experience</Link>
                     <Link activeClass="active" to="project-section" smooth={true} className='link' onClick={toggleIcon}>Projects</Link>
                 </ul>
-                <button><a>Contact me</a></button>
+                <button><a href='/portfolio'>Contact me</a></button>
             </div>
         </div>
     );
