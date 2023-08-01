@@ -6,6 +6,7 @@ import IRSS from '../images/IRSecurity.jpg'
 import KLE from '../images/KLE.png'
 import MMEC from '../images/MMEC.png'
 import LMS from '../images/LMS.png'
+import { FaTimes } from 'react-icons/fa';
 
 const ProjectCard = (props) => {
 
@@ -22,7 +23,7 @@ const ProjectCard = (props) => {
                     <img src={getImage(props.title)} alt='project' onClick={toggleModal} />
                     <Modal isOpen={isOpen} onRequestClose={toggleModal} contentLabel="Image Popup" className="modal" overlayClassName="overlay">
                         <button className="close-button" onClick={toggleModal}>
-                            X
+                            <FaTimes />
                         </button>
                         <img src={getImage(props.title)} alt='project' className="modal-image" />
                     </Modal>

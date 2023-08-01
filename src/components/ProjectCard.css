@@ -52,7 +52,7 @@
   right: 10px;
   cursor: pointer;
   background-color: black;
-  padding: 2px 6px;
+  padding: 2px 2px 0px;
   border: none;
 }
 
@@ -84,15 +84,24 @@
     width: 100%;
   }
 
-  .modal { 
+  .modal {
     width: 80%;
+    height: 25%;
   }
+
+  .close-button {
+    font-size: 0.5rem;
+    top: 2px;
+    right: 2px;
+    padding: 1px;
+  }
+
   .ProContent {
     grid-template-columns: 100%;
   }
 
   .modal-image {
     width: 100%;
-    height: 200px;
+    height: 100%;
   }
 }
