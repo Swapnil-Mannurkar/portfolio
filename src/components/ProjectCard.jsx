@@ -18,7 +18,7 @@ const ProjectCard = (props) => {
                     <p>
                         {props.desc}
                     </p>
-                    <a href={props.link} target='_blank' style={{textDecoration: 'none', color: 'lightblue'}}>Learn more...</a>
+                    <a href={props.link} rel="noreferrer" target='_blank' style={{textDecoration: 'none', color: 'lightblue'}}>Learn more...</a>
                 </div>
             </div>
         </>
@@ -32,7 +32,8 @@ const getImage = (title) => {
         case "Invento": return Invento;
         case "IR Security System": return IRSS;
         case "Leave Management System": return LMS;
-        case "M.M.Engineering College": return MMEC;
-        case "KLE Dr.M.S.S.CET": return KLE;
+        case "M. M. Engineering College": return MMEC;
+        case "KLE Dr. M. S. S. CET": return KLE;
+        default: break;
     }
 }
