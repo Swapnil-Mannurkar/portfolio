@@ -29,7 +29,7 @@ export default ProjectCard
 
 const getImage = (title) => {
     switch (title) {
-        case "Invento": return Invento;
+        case "Invento 2023": return Invento;
         case "IR Security System": return IRSS;
         case "Leave Management System": return LMS;
         case "M. M. Engineering College": return MMEC;
