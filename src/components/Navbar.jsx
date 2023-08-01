@@ -50,14 +50,14 @@ const Navbar = () => {
     const menu = screenSize ? click ? clickedStyles : notClickedStyled : laptopView;
 
     return (
-        <div className='container'>
+        <nav className='container'>
             <div className='logo'>
                 <a href='mailto:mannurkarswapnil@gmail.com' target='_blank' rel="noreferrer" style={{ textDecoration: "none" }}>😎<span className='name' style={{fontWeight: '700'}}>&nbsp;mannurkarswapnil@gmail.com</span></a>
                 <div onClick={toggleIcon}>
                     {screenSize && (!click ? <MenuIcon sx={{ fontSize: 30 }} /> : <CloseIcon sx={{ fontSize: 30 }} />)}
                 </div >
             </div>
-
+            
             <div className='navItems' style={menu}>
                 <ul>
                     <Link activeClass="active" to="about-me-section" smooth={true} className='link' onClick={toggleIcon}><h4>About Me</h4></Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
                 </ul>
                 <button><a href='/portfolio' style={{fontWeight: '700'}}>Contact me</a></button>
             </div>
-        </div>
+        </nav>
     );
 };
 

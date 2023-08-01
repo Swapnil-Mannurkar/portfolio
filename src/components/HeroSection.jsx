@@ -46,12 +46,12 @@ const HeroSection = () => {
         return () => {
             clearTimeout();
         };
-    }, []);
+    });
 
     return (
         <div className='HScontainer'>
             <div className='HSPhoto'>
-                <img src={myImage}></img>
+                <img src={myImage} alt='Swapnil Mannurkar'></img>
             </div>
             <p className='HSName'>
                 <span>Hi, I'm Swapnil Mannurkar</span>👋
@@ -60,7 +60,7 @@ const HeroSection = () => {
                 Cyberjunkie |&nbsp;<p ref={textRef}></p>_
             </div>
             <div className='HSButton'>
-                <button><a target='_blank' href='https://drive.google.com/file/d/1nNMTBzpU7LhmEKr0I3VitzbEDkXwRfKJ/view?usp=sharing'>Download CV ↗</a></button>
+                <button><a target='_blank' rel='noreferrer' href='https://drive.google.com/file/d/1nNMTBzpU7LhmEKr0I3VitzbEDkXwRfKJ/view?usp=sharing'>Download CV ↗</a></button>
             </div>
         </div>
     )
