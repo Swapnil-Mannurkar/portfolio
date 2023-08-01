@@ -19,14 +19,15 @@
 }
 
 .ProCardContent {
-  padding: 0 10px 15px;
+  padding: 0 10px 7px;
   display: grid;
   grid-template-rows: 1fr 2fr 1fr;
 }
 
 .ProCardContent h1 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: #dddddd;
+  margin-top: 5px;
 }
 
 .ProCardContent p {

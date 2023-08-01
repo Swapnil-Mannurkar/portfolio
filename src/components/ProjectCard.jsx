@@ -4,6 +4,7 @@ import Invento from '../images/Invento.jpg'
 import IRSS from '../images/IRSecurity.jpg'
 import KLE from '../images/KLE.png'
 import MMEC from '../images/MMEC.png'
+import LMS from '../images/LMS.png'
 
 const ProjectCard = (props) => {
     return (
@@ -30,7 +31,7 @@ const getImage = (title) => {
     switch (title) {
         case "Invento": return Invento;
         case "IR Security System": return IRSS;
-        case "Leave Management System": return Invento;
+        case "Leave Management System": return LMS;
         case "M.M.Engineering College": return MMEC;
         case "KLE Dr.M.S.S.CET": return KLE;
     }
