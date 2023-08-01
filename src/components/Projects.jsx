@@ -12,7 +12,7 @@ const Projects = () => {
                 {ProjectData.map((pro, index) => (
                     <ProjectCard key={index} title={pro.title} desc={pro.desc} link={pro.link} />
                 ))}
-                <div style={{ display: 'flex', alignItems: 'flex-end', paddingLeft: '45px' }}>for more projects please&nbsp;<a href='https://github.com/Swapnil-Mannurkar?tab=repositories' target='_blank' style={{ textDecoration: 'none', color: 'lightblue' }}>click here...</a></div>
+                <div className='moreProject'>for more projects please&nbsp;<a href='https://github.com/Swapnil-Mannurkar?tab=repositories' target='_blank' style={{ textDecoration: 'none', color: 'lightblue' }}>click here...</a></div>
             </div>
         </div>
     )
