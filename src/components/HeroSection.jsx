@@ -60,7 +60,7 @@ const HeroSection = () => {
                 Cyberjunkie |&nbsp;<p ref={textRef}></p>_
             </div>
             <div className='HSButton'>
-                <button><a target='_blank' href='https://drive.google.com/file/d/1Qo1sIGY-76V2ofndnRatCKdGObWrTnUw/view?usp=sharing'>Download CV ↗</a></button>
+                <button><a target='_blank' href='https://drive.google.com/file/d/1nNMTBzpU7LhmEKr0I3VitzbEDkXwRfKJ/view?usp=sharing'>Download CV ↗</a></button>
             </div>
         </div>
     )

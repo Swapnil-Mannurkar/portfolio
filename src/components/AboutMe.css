@@ -35,7 +35,7 @@
 .AMInfoCont h2 {
   font-size: 1.7rem;
   position: relative;
-  top: -13%;
+  top: -12.2%;
 }
 
 .AMInfoContent {
@@ -94,7 +94,7 @@
   .AMInfoCont h2 {
     font-size: 1.1rem;
     text-align: center;
-    top: -7.5vh;
+    top: -11.5%;
   }
 
   .AMInfoCont::before { 

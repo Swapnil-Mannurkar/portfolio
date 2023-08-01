@@ -1,0 +1,27 @@
+[
+  {
+    "link": "https://invento-kle.netlify.app/",
+    "title": "Invento",
+    "desc": "I and my team have developed an official website for my engineering college events - Invento, a techno-cultural fest."
+  },
+  {
+    "link": "",
+    "title": "Leave Management System",
+    "desc": "I have developed a leave management system where faculty or employees can apply leave using it."
+  },
+  {
+    "link": "https://www.mmec.edu.in/",
+    "title": "M.M.Engineering College",
+    "desc": "I and my team have developed an official website for Maratha Mandal Engineering College."
+  },
+  {
+    "link": "https://www.klescet.ac.in/",
+    "title": "KLE Dr.M.S.S.CET",
+    "desc": "I and my team have developed an official website for my engineering college."
+  },
+  {
+    "link": "https://drive.google.com/file/d/12GU89-lMNrVdGVr5XGJ0X2CxFTmpFHJx/view",
+    "title": "IR Security System",
+    "desc": "As a major project, I have developed a security system using Raspberry pi and IR sensor."
+  }
+]

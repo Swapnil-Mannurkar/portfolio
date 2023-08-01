@@ -1,0 +1,18 @@
+.ProCont {
+  background-color: rgb(0, 0, 0);
+  margin-top: 60px;
+}
+
+.ProCont .ExpHeader {
+  padding-top: 20px;
+}
+
+.ProContent {
+  width: 85%;
+  height: 100%;
+  /* background-color: aqua; */
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 3rem;
+}
