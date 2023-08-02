@@ -21,12 +21,18 @@ const ContactMe = () => {
             </div>
             <div className='ContactSocial'>
                 <div className='ContactSocialIcons'>
-                    <LinkedIn sx={socialIcon} />
-                    <WhatsApp sx={socialIcon} />
-                    <Instagram sx={socialIcon} />
+                    <a target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/swapnil-mannurkar-10ba14247/">
+                        <LinkedIn sx={socialIcon} />
+                    </a>
+                    <a target='_blank' rel='noreferrer' href="https://wa.me/9242239078">
+                        <WhatsApp sx={socialIcon} />
+                    </a>
+                    <a target='_blank' rel='noreferrer' href="https://www.instagram.com/_.c_r_a_z_e._/">
+                        <Instagram sx={socialIcon} />
+                    </a>
                 </div>
                 <div className='ContactSocialEmail'>
-                    <Email sx={socialEmail} />&nbsp;<span style={{marginTop: '2px'}}>mannurkarswapnil@gmail.com</span>
+                    <Email sx={socialEmail} />&nbsp;<a href="mailto:mannurkarswapnil@gmail.com" target='_blank' rel='noreferrer' style={{ marginTop: '2px', textDecoration: 'none' }} className='emailLink'>mannurkarswapnil@gmail.com</a>
                 </div>
             </div>
             <div className='ConatctCopyright'>
