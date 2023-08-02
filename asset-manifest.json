@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e9aecaf3.css",
-    "main.js": "/portfolio/static/js/main.153e2ab6.js",
-    "static/media/About.jpg": "/portfolio/static/media/About.a631da85c58c8c4afaa6.jpg",
+    "main.css": "/portfolio/static/css/main.ddc1daa7.css",
+    "main.js": "/portfolio/static/js/main.951fdc0f.js",
+    "static/media/About.jpg": "/portfolio/static/media/About.785aa095565a4dd5a90f.jpg",
     "static/media/MMEC.png": "/portfolio/static/media/MMEC.9681c96082e7ae7a656b.png",
     "static/media/KLE.png": "/portfolio/static/media/KLE.0e3f7e9c7ccca462a170.png",
+    "static/media/Swapnil.jpg": "/portfolio/static/media/Swapnil.248bb99b7d0d477d8f88.jpg",
     "static/media/Invento.jpg": "/portfolio/static/media/Invento.c6bfd5f95af4f5e2312f.jpg",
     "static/media/IRSecurity.jpg": "/portfolio/static/media/IRSecurity.ade6e156ce05f3676dfb.jpg",
     "static/media/LMS.png": "/portfolio/static/media/LMS.0f81025886a5449ec943.png",
     "static/media/mysql.png": "/portfolio/static/media/mysql.351f6bfc49e2e36d8232.png",
-    "static/media/Swapnil.jpg": "/portfolio/static/media/Swapnil.957cd99d63e9a35d1d72.jpg",
     "index.html": "/portfolio/index.html",
-    "main.e9aecaf3.css.map": "/portfolio/static/css/main.e9aecaf3.css.map",
-    "main.153e2ab6.js.map": "/portfolio/static/js/main.153e2ab6.js.map"
+    "main.ddc1daa7.css.map": "/portfolio/static/css/main.ddc1daa7.css.map",
+    "main.951fdc0f.js.map": "/portfolio/static/js/main.951fdc0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9aecaf3.css",
-    "static/js/main.153e2ab6.js"
+    "static/css/main.ddc1daa7.css",
+    "static/js/main.951fdc0f.js"
   ]
 }
