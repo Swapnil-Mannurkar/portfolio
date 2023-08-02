@@ -15,7 +15,7 @@ const socialEmail = {
 
 const ContactMe = () => {
     return (
-        <div className='ContactCont'>
+        <div className='ContactCont' id='contact_me'>
             <div>
                 <h1 className='ContactTitle'>Contact me</h1>
             </div>
