@@ -17,6 +17,7 @@
   border-radius: 50%;
   border: 2px solid #ffffff;
   padding: 6px;
+  filter: brightness(75%);
 }
 
 .HSName {
