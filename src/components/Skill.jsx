@@ -7,7 +7,7 @@ const iconStyle = {
     fontSize: '40px',
     justifySelf: 'center',
     alignSelf: 'center',
-    width: '100%',
+    width: '100%'
 };
 
 const mysqlStyle = {

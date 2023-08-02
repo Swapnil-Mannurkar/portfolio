@@ -49,6 +49,7 @@
 
 .AMInfoContent p {
   text-align: justify;
+  color: #bbbbbb;
 }
 
 .AMInfoCont::before {

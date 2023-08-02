@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: flex-end;
   height: 100%;
+  color: #bbbbbb;
 }
 
 .ContactSocial {
@@ -36,9 +37,16 @@
   padding-top: 20px;
 }
 
+.emailLink {
+  margin-top: 2px;
+  text-decoration: none;
+  color: #bbbbbb;
+}
+
 .ConatctCopyright {
   display: flex;
   justify-content: center;
+  color: #888888;
 }
 
 @media screen and (max-width: 960px) {

@@ -32,7 +32,7 @@ const ContactMe = () => {
                     </a>
                 </div>
                 <div className='ContactSocialEmail'>
-                    <Email sx={socialEmail} />&nbsp;<a href="mailto:mannurkarswapnil@gmail.com" target='_blank' rel='noreferrer' style={{ marginTop: '2px', textDecoration: 'none' }} className='emailLink'>mannurkarswapnil@gmail.com</a>
+                    <Email sx={socialEmail} />&nbsp;<a href="mailto:mannurkarswapnil@gmail.com" target='_blank' rel='noreferrer' className='emailLink'>mannurkarswapnil@gmail.com</a>
                 </div>
             </div>
             <div className='ConatctCopyright'>
