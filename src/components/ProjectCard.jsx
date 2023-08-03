@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import './ProjectCard.css'
-import Invento from '../images/Invento.jpg'
-import IRSS from '../images/IRSecurity.jpg'
+import Invento from '../images/Invento.png'
+import IRSS from '../images/IRSecurity.png'
 import KLE from '../images/KLE.png'
 import MMEC from '../images/MMEC.png'
 import LMS from '../images/LMS.png'
