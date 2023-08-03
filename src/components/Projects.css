@@ -17,6 +17,18 @@
   row-gap: 3rem;
 }
 
+.ProContent.fade-in {
+  animation: fade 2s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}
+
 .moreProject {
   display: flex;
   align-items: flex-end;

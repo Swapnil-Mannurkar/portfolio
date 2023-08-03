@@ -1,14 +1,47 @@
-import React from 'react'
+import React, {useState, useRef, useEffect} from 'react'
 import './Projects.css'
 import ProjectCard from './ProjectCard'
 import ProjectData from './ProjectData.json'
 
 const Projects = () => {
+    const [isVisible, setIsVisible] = useState(false);
+    const [hasAnimated, setHasAnimated] = useState(false);
+    const ref = useRef(null);
+
+    const handleIntersection = (entries) => {
+        const [entry] = entries;
+        setIsVisible(entry.isIntersecting);
+    };
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(handleIntersection, {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.2,
+        });
+
+        if (ref.current && !hasAnimated) {
+            observer.observe(ref.current);
+        }
+
+        return () => {
+            if (ref.current) {
+                observer.unobserve(ref.current);
+            }
+        };
+    }, [hasAnimated]);
+
+    useEffect(() => {
+        if (isVisible) {
+            setHasAnimated(true);
+        }
+    }, [isVisible]);
+
     return (
         <div className='ProCont' id='project-section'>
             <h1 className='ExpHeader'>PROJECTS</h1>
             <h2 className='ExpSubHeader'>As a Developer</h2>
-            <div className='ProContent'>
+            <div className={`ProContent ${isVisible ? 'fade-in' : ''}`} ref={ref}>
                 {ProjectData.map((pro, index) => (
                     <ProjectCard key={index} title={pro.title} desc={pro.desc} link={pro.link} />
                 ))}

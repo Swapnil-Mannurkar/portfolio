@@ -1,12 +1,52 @@
-import React from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import './AboutMe.css'
 
 const AboutMe = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const [hasAnimated, setHasAnimated] = useState(false);
+  const ref = useRef(null);
+  const reff = useRef(null);
+
+  const handleIntersection = (entries) => {
+    const [entry] = entries;
+    setIsVisible(entry.isIntersecting);
+  };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(handleIntersection, {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.4,
+    });
+
+    if (ref.current && !hasAnimated) {
+      observer.observe(ref.current);
+    }
+    if (reff.current && !hasAnimated) {
+      observer.observe(reff.current);
+    }
+
+    return () => {
+      if (ref.current) {
+        observer.unobserve(ref.current);
+      }
+      if (reff.current) {
+        observer.unobserve(reff.current);
+      }
+    };
+  }, [hasAnimated]);
+
+  useEffect(() => {
+    if (isVisible) {
+      setHasAnimated(true);
+    }
+  }, [isVisible]);
+
   return (
     <div className='AMContainer' id="about-me-section">
-      <div className='AMImgCont'>
+      <div className={`AMImgCont ${isVisible ? 'fade-in' : ''}`} ref={ref}>
       </div>
-      <div className='AMInfoCont'>
+      <div className={`AMInfoCont ${isVisible ? 'slide-left' : ''}`} ref={reff}>
         <h1>ABOUT</h1>
         <h2>Frontend Web Developer</h2>
         <div className='AMInfoContent'>
