@@ -28,9 +28,16 @@
 .ExpInfoCont {
   height: 70vh;
   display: grid;
-  width: 87.5%;
+  width: 86%;
   grid: auto / auto auto;
 }
+
+
+@media screen and (max-width: 1280px) and (min-width: 961px) {
+  .ExpInfoCont {
+    width: 87.8%;
+  }
+ }
 
 @media screen and (max-width: 960px) {
   .ExpHeader {

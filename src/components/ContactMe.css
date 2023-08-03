@@ -49,6 +49,12 @@
   color: #888888;
 }
 
+@media screen and (max-width: 1280px) and (min-width: 961px) {
+  .ContactSocialIcons {
+    width: 15%;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .ConatctCopyright {
     text-align: center;
@@ -56,7 +62,7 @@
   }
 
   .ContactSocialIcons {
-    width: 40%;
+    width: 45%;
   }
 
   .emailLink {

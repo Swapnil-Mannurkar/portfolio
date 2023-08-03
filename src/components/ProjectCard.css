@@ -79,6 +79,12 @@
   font-size: 0.8rem;
 }
 
+@media screen and (max-width: 1280px) and (min-width: 961px) {
+  .ProCardContainer {
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .ProCardContainer {
     width: 100%;
