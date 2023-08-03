@@ -15,10 +15,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 3rem;
+  opacity: 0;
 }
 
 .ProContent.fade-in {
-  animation: fade 2s;
+  animation: fade 4s;
+  opacity: 1;
 }
 
 @keyframes fade {

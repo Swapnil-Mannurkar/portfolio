@@ -18,10 +18,12 @@
   background-blend-mode: multiply;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+  opacity: 0;
 }
 
 .AMImgCont.fade-in {
   animation: fadeIn 4s;
+  opacity: 1;
 }
 
 @keyframes fadeIn {
@@ -40,18 +42,22 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  opacity: 0;
 }
 
 .AMInfoCont.slide-left {
   animation: slideInFromRight 1.5s;
+  opacity: 1;
 }
 
 @keyframes slideInFromRight {
   from {
     transform: translateX(100%);
+    opacity: 0;
   }
   to {
     transform: translateX(0%);
+    opacity: 1;
   }
 }
 
