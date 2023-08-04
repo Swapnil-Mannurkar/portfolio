@@ -18,15 +18,15 @@
     "icon": "FaJs"
   },
   {
-    "name": "React.js",
-    "year": "0.5 year",
-    "level": "Beginner",
-    "icon": "FaReact"
-  },
-  {
     "name": "MySQL",
     "year": "1 year",
     "level": "Intermediate",
     "icon": "MySQL"
+  },
+  {
+    "name": "React.js",
+    "year": "0.5 year",
+    "level": "Beginner",
+    "icon": "FaReact"
   }
 ]
