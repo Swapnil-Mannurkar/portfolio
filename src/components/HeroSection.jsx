@@ -57,7 +57,7 @@ const HeroSection = () => {
                 <span>Hi, I'm Swapnil Mannurkar</span>👋
             </p>
             <div className='HSIntro'>
-                Cyberjunkie |&nbsp;<p ref={textRef}></p>_
+                Cyberjunkie |&nbsp;<p ref={textRef}></p>
             </div>
             <div className='HSButton'>
                 <button><a target='_blank' rel='noreferrer' href='https://drive.google.com/file/d/1nNMTBzpU7LhmEKr0I3VitzbEDkXwRfKJ/view?usp=sharing'>Download CV ↗</a></button>
