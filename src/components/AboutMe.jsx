@@ -19,19 +19,21 @@ const AboutMe = () => {
       threshold: 0.4,
     });
 
-    if (ref.current && !hasAnimated) {
-      observer.observe(ref.current);
+    let refer = ref.current;
+
+    if (refer && !hasAnimated) {
+      observer.observe(refer);
     }
-    if (reff.current && !hasAnimated) {
-      observer.observe(reff.current);
+    if (refer && !hasAnimated) {
+      observer.observe(refer);
     }
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
+      if (refer) {
+        observer.unobserve(refer);
       }
-      if (reff.current) {
-        observer.unobserve(reff.current);
+      if (refer) {
+        observer.unobserve(refer);
       }
     };
   }, [hasAnimated]);

@@ -77,6 +77,8 @@
   text-decoration: none;
   color: lightblue;
   font-size: 0.8rem;
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 1280px) and (min-width: 961px) {

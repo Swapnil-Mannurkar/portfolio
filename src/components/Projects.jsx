@@ -20,13 +20,15 @@ const Projects = () => {
             threshold: 0.2,
         });
 
-        if (ref.current && !hasAnimated) {
-            observer.observe(ref.current);
+        let reference = ref.current
+
+        if (reference && !hasAnimated) {
+            observer.observe(reference);
         }
 
         return () => {
-            if (ref.current) {
-                observer.unobserve(ref.current);
+            if (reference) {
+                observer.unobserve(reference);
             }
         };
     }, [hasAnimated]);
