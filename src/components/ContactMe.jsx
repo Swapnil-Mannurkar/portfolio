@@ -17,7 +17,7 @@ const ContactMe = () => {
     return (
         <div className='ContactCont' id='contact_me'>
             <div>
-                <h1 className='ContactTitle'>Contact me</h1>
+                <h1 className='ContactTitle'>Contact me!!</h1>
             </div>
             <div className='ContactSocial'>
                 <div className='ContactSocialIcons'>
