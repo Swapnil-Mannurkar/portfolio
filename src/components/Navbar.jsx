@@ -16,20 +16,16 @@ const Navbar = () => {
     useEffect(() => {
         const handleScrollLock = () => {
             if (screenSize && click) {
-                // Lock scroll when the mobile menu is open
                 document.body.style.overflow = 'hidden';
             } else {
-                // Restore scroll when the mobile menu is closed
                 document.body.style.overflow = 'unset';
             }
         };
 
-        // Add event listener for scroll lock when the click state changes
         handleScrollLock();
 
-        // Clean up the event listener on component unmount
         return () => {
-            document.body.style.overflow = 'unset'; // Always restore scroll on unmount
+            document.body.style.overflow = 'unset';
         };
     }, [screenSize, click]);
 
