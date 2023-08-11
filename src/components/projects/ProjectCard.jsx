@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import "./ProjectCard.css";
-import Invento from "../images/Invento.png";
-import IRSS from "../images/IRSecurity.png";
-import KLE from "../images/KLE.png";
-import MMEC from "../images/MMEC.png";
-import LMS from "../images/LMS.png";
+import Invento from "../../images/Invento.png";
+import IRSS from "../../images/IRSecurity.png";
+import KLE from "../../images/KLE.png";
+import MMEC from "../../images/MMEC.png";
+import LMS from "../../images/LMS.png";
 import { FaTimes, FaEye } from "react-icons/fa";
 
 const ProjectCard = (props) => {
@@ -50,7 +50,8 @@ const ProjectCard = (props) => {
             target="_blank"
             className="learnMore"
           >
-            View Project&nbsp;&nbsp;<FaEye/>
+            View Project&nbsp;&nbsp;
+            <FaEye />
           </a>
         </div>
       </div>

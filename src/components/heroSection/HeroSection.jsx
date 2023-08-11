@@ -1,6 +1,6 @@
 import React from 'react'
 import './HeroSection.css'
-import myImage from '../images/Swapnil.png'
+import myImage from '../../images/Swapnil.png'
 import { useEffect, useRef } from 'react';
 
 const HeroSection = () => {

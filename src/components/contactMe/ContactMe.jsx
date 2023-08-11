@@ -1,6 +1,6 @@
 import React from 'react'
 import './ContactMe.css'
-import { WhatsApp, LinkedIn, Instagram, Email } from '@mui/icons-material'
+import { WhatsApp, LinkedIn, Instagram, Email, GitHub } from '@mui/icons-material'
 
 const socialIcon = {
     fontSize: '30px',
@@ -29,6 +29,9 @@ const ContactMe = () => {
                     </a>
                     <a target='_blank' rel='noreferrer' href="https://www.instagram.com/_.c_r_a_z_e._/">
                         <Instagram sx={socialIcon} />
+                    </a>
+                    <a target='_blank' rel='noreferrer' href="https://www.instagram.com/_.c_r_a_z_e._/">
+                        <GitHub sx={socialIcon} />
                     </a>
                 </div>
                 <div className='ContactSocialEmail'>

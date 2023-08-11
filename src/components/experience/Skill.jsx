@@ -1,7 +1,7 @@
 import React from 'react'
 import './Skill.css'
 import { FaReact, FaHtml5, FaCss3, FaJs } from 'react-icons/fa';
-import MySQL from '../images/mysql.png'
+import MySQL from '../../images/mysql.png'
 
 const iconStyle = {
     fontSize: '40px',
