@@ -6,6 +6,7 @@ import IRSS from "../../images/IRSecurity.png";
 import KLE from "../../images/KLE.png";
 import MMEC from "../../images/MMEC.png";
 import LMS from "../../images/LMS.png";
+import Dashboard from "../../images/Dashboard.png";
 import { FaTimes, FaEye } from "react-icons/fa";
 
 const ProjectCard = (props) => {
@@ -73,6 +74,8 @@ const getImage = (title) => {
       return MMEC;
     case "KLE Dr. M. S. S. CET":
       return KLE;
+    case "Google authentication dashboard":
+      return Dashboard;
     default:
       break;
   }

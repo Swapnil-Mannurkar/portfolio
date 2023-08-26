@@ -30,7 +30,7 @@ const ContactMe = () => {
                     <a target='_blank' rel='noreferrer' href="https://www.instagram.com/_.c_r_a_z_e._/">
                         <Instagram sx={socialIcon} />
                     </a>
-                    <a target='_blank' rel='noreferrer' href="https://www.instagram.com/_.c_r_a_z_e._/">
+                    <a target='_blank' rel='noreferrer' href="https://github.com/Swapnil-Mannurkar">
                         <GitHub sx={socialIcon} />
                     </a>
                 </div>

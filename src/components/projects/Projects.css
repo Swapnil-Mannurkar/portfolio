@@ -26,22 +26,24 @@
 @keyframes fade {
   from {
     opacity: 0;
-  } to {
+  }
+  to {
     opacity: 1;
   }
 }
 
 .moreProject {
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  width: 100%;
+  align-items: center;
+  width: 80%;
+  margin: auto;
 }
 
 @media screen and (max-width: 1280px) and (min-width: 961px) {
   .ProContent {
     width: 90%;
   }
+
 }
 
 @media screen and (max-width: 960px) {
@@ -52,4 +54,11 @@
   .ProCont .ExpSubHeader {
     padding-bottom: 15px;
   }
+
+  
+.moreProject { 
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+}
 }
