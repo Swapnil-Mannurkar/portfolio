@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1d7cb62.css",
-    "main.js": "/static/js/main.fc85818b.js",
+    "main.css": "/static/css/main.0557795c.css",
+    "main.js": "/static/js/main.598f0230.js",
     "static/media/Invento.png": "/static/media/Invento.d60f69edd7e6e5a546e9.png",
     "static/media/KLE.png": "/static/media/KLE.45794873e19f1754bc62.png",
     "static/media/MMEC.png": "/static/media/MMEC.467c1ab1b93c1003cd64.png",
     "static/media/IRSecurity.png": "/static/media/IRSecurity.9f6850b34f327830c5bc.png",
     "static/media/Swapnil.png": "/static/media/Swapnil.b5363dea74c9c625b4b7.png",
     "static/media/About.png": "/static/media/About.adc4d20f6d9b6ad285f0.png",
+    "static/media/Dashboard.png": "/static/media/Dashboard.1aa6f61756522d48364b.png",
     "static/media/LMS.png": "/static/media/LMS.0f81025886a5449ec943.png",
     "static/media/mysql.png": "/static/media/mysql.351f6bfc49e2e36d8232.png",
     "index.html": "/index.html",
-    "main.f1d7cb62.css.map": "/static/css/main.f1d7cb62.css.map",
-    "main.fc85818b.js.map": "/static/js/main.fc85818b.js.map"
+    "main.0557795c.css.map": "/static/css/main.0557795c.css.map",
+    "main.598f0230.js.map": "/static/js/main.598f0230.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1d7cb62.css",
-    "static/js/main.fc85818b.js"
+    "static/css/main.0557795c.css",
+    "static/js/main.598f0230.js"
   ]
 }
