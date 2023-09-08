@@ -11,6 +11,7 @@ const HeroSection = () => {
   const waitTime = 2000;
   const erasingSpeed = 50;
 
+  
   const writeText = async (word) => {
     for (let i = 0; i <= word.length; i++) {
       await new Promise((resolve) => setTimeout(resolve, typingSpeed));
