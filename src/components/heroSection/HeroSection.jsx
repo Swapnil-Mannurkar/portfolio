@@ -36,7 +36,6 @@ const HeroSection = () => {
     changeText();
   };
   
-
   useEffect(() => {
     changeText();
     return () => {
