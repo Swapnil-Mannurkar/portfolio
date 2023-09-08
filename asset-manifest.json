@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3e9b30b7.css",
-    "main.js": "/static/js/main.7510b34c.js",
+    "main.js": "/static/js/main.f04d515c.js",
     "static/media/Invento.png": "/static/media/Invento.d60f69edd7e6e5a546e9.png",
     "static/media/KLE.png": "/static/media/KLE.45794873e19f1754bc62.png",
     "static/media/MMEC.png": "/static/media/MMEC.467c1ab1b93c1003cd64.png",
@@ -13,10 +13,10 @@
     "static/media/mysql.png": "/static/media/mysql.351f6bfc49e2e36d8232.png",
     "index.html": "/index.html",
     "main.3e9b30b7.css.map": "/static/css/main.3e9b30b7.css.map",
-    "main.7510b34c.js.map": "/static/js/main.7510b34c.js.map"
+    "main.f04d515c.js.map": "/static/js/main.f04d515c.js.map"
   },
   "entrypoints": [
     "static/css/main.3e9b30b7.css",
-    "static/js/main.7510b34c.js"
+    "static/js/main.f04d515c.js"
   ]
 }
