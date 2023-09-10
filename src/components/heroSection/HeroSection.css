@@ -1,5 +1,5 @@
 .HScontainer {
-  height: 70vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,7 +38,7 @@
   animation: slideInFromBottom 1s;
 }
 
-.HSIntro {
+.HSIntro, .HSTitle {
   display: flex;
   animation: slideInFromBottom 1s;
 }
@@ -64,7 +64,8 @@
 @keyframes slideInFromBottom {
   from {
     transform: translateY(150%);
-  } to {
+  }
+  to {
     transform: translateY(0%);
   }
 }
@@ -82,7 +83,7 @@
 
 @media screen and (max-width: 960px) {
   .HScontainer {
-    height: 45vh;
+    height: 50vh;
   }
 
   .HSPhoto img {
@@ -94,7 +95,7 @@
     font-size: 1.2rem;
   }
 
-  .HSIntro {
+  .HSIntro, .HSTitle {
     font-size: 0.8rem;
   }
 
