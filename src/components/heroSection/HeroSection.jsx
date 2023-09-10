@@ -51,7 +51,15 @@ const HeroSection = () => {
       <p className="HSName">
         <span>Hi, I'm Swapnil Mannurkar</span>👋
       </p>
-      <p className="HSTitle">Associate Frontend Developer @ TokSkill</p>
+      <p className="HSTitle">
+        Associate Frontend Developer @{" "}
+        <a
+          href="www.tokskill.com"
+          style={{ textDecoration: "none", color: "lightblue" }}
+        >
+          TokSkill
+        </a>
+      </p>
       <div className="HSIntro">
         Cyberjunkie |&nbsp;<p ref={textRef}></p>
       </div>
