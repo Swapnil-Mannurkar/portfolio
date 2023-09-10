@@ -3,6 +3,7 @@
   height: 45vh;
   display: grid;
   grid-template-rows: 1fr, 1fr, 1fr;
+  background-color: black;
 }
 
 .ContactTitle {
