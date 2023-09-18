@@ -1,7 +1,12 @@
 [
   {
+    "link": "https://swapnil-mannurkar-ecommerce.netlify.app/",
+    "title": "Basic E-Commerce Website",
+    "desc": "I have developed an e-commerce website in which an user can order anime t-shirt from the website."
+  },
+  {
     "link": "https://swapnil-mannurkar-openinapp.netlify.app/",
-    "title": "Google authentication dashboard",
+    "title": "Google Authentication Dashboard",
     "desc": "I have developed a dashboard which is accessible by user when they login using their google account."
   },
   {
