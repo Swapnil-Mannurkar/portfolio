@@ -7,7 +7,6 @@ import KLE from "../../images/KLE.png";
 import MMEC from "../../images/MMEC.png";
 import LMS from "../../images/LMS.png";
 import Dashboard from "../../images/Dashboard.png";
-import eCommerce from "../../images/E-Commerce.png"
 import { FaTimes, FaEye } from "react-icons/fa";
 
 const ProjectCard = (props) => {
@@ -77,8 +76,6 @@ const getImage = (title) => {
       return KLE;
     case "Google authentication dashboard":
       return Dashboard;
-    case "Basic E-Commerce Website":
-      return eCommerce;
     default:
       break;
   }
