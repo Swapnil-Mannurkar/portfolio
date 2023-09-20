@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2826e2ef.css",
-    "main.js": "/static/js/main.ae682084.js",
+    "main.css": "/static/css/main.6475feec.css",
+    "main.js": "/static/js/main.06a6c027.js",
     "static/media/E-Commerce.png": "/static/media/E-Commerce.99e611826113d1173b77.png",
     "static/media/Invento.png": "/static/media/Invento.d60f69edd7e6e5a546e9.png",
     "static/media/KLE.png": "/static/media/KLE.45794873e19f1754bc62.png",
@@ -9,15 +9,17 @@
     "static/media/IRSecurity.png": "/static/media/IRSecurity.9f6850b34f327830c5bc.png",
     "static/media/Swapnil.png": "/static/media/Swapnil.b5363dea74c9c625b4b7.png",
     "static/media/About.png": "/static/media/About.adc4d20f6d9b6ad285f0.png",
+    "static/media/SQL.jpg": "/static/media/SQL.cc6506f7fade72cded9c.jpg",
+    "static/media/Reactjs.jpg": "/static/media/Reactjs.a1e5a246f31f3bbef59c.jpg",
     "static/media/Dashboard.png": "/static/media/Dashboard.1aa6f61756522d48364b.png",
     "static/media/LMS.png": "/static/media/LMS.0f81025886a5449ec943.png",
     "static/media/mysql.png": "/static/media/mysql.351f6bfc49e2e36d8232.png",
     "index.html": "/index.html",
-    "main.2826e2ef.css.map": "/static/css/main.2826e2ef.css.map",
-    "main.ae682084.js.map": "/static/js/main.ae682084.js.map"
+    "main.6475feec.css.map": "/static/css/main.6475feec.css.map",
+    "main.06a6c027.js.map": "/static/js/main.06a6c027.js.map"
   },
   "entrypoints": [
-    "static/css/main.2826e2ef.css",
-    "static/js/main.ae682084.js"
+    "static/css/main.6475feec.css",
+    "static/js/main.06a6c027.js"
   ]
 }
