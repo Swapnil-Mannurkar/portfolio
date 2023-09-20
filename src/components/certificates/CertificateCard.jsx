@@ -4,7 +4,7 @@ import "./CertificateCard.css";
 const CertificateCard = (props) => {
   return (
     <div className="certificateCardContainer">
-      <img src={props.image} width="90%" className="certificateImage" />
+      <img src={props.image} width="90%" className="certificateImage" alt="certificate" />
       <h4>{props.title}</h4>
     </div>
   );
