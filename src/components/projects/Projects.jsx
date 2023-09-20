@@ -42,7 +42,6 @@ const Projects = () => {
   return (
     <div className="ProCont" id="project-section">
       <h1 className="ExpHeader">PROJECTS</h1>
-      <h2 className="ExpSubHeader">As a Developer</h2>
       <div className={`ProContent ${isVisible ? "fade-in" : ""}`} ref={ref}>
         {ProjectData.map((pro, index) => (
           <ProjectCard

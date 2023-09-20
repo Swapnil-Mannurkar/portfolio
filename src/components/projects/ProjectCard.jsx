@@ -7,7 +7,7 @@ import KLE from "../../images/KLE.png";
 import MMEC from "../../images/MMEC.png";
 import LMS from "../../images/LMS.png";
 import Dashboard from "../../images/Dashboard.png";
-import eCommerce from "../../images/E-Commerce.png"
+import eCommerce from "../../images/E-Commerce.png";
 import { FaTimes, FaEye } from "react-icons/fa";
 
 const ProjectCard = (props) => {
@@ -65,20 +65,20 @@ export default ProjectCard;
 
 const getImage = (title) => {
   switch (title) {
-    case "Invento 2023":
+    case "Invento 2023 - Vanilla JS":
       return Invento;
-    case "IR Security System":
+    case "IR Security System - Python":
       return IRSS;
-    case "Leave Management System":
+    case "Leave Management System - PHP":
       return LMS;
-    case "M. M. Engineering College":
+    case "M. M. Engineering College - WordPress":
       return MMEC;
-    case "KLE Dr. M. S. S. CET":
+    case "KLE Dr. M. S. S. CET - WordPress":
       return KLE;
-    case "Google Authentication Dashboard":
-      return Dashboard;
-    case "Basic E-Commerce Website":
+    case "Basic E-Commerce Website - React.js":
       return eCommerce;
+    case "Basic Dashboard - React.js":
+      return Dashboard;
     default:
       break;
   }

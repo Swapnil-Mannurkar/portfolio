@@ -8,7 +8,6 @@ const Experience = () => {
     return (
         <>
             <h1 className='ExpHeader' id="experience-section">EXPERIENCE</h1>
-            <h2 className='ExpSubHeader'>As a Frontend Web Developer</h2>
             <div className='ExpContainer'>
                 <div className='ExpCont'>
                     <SkillCard />
