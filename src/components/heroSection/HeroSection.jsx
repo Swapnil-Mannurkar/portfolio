@@ -4,7 +4,17 @@ import myImage from "../../images/Swapnil.png";
 import { useEffect, useRef } from "react";
 
 const HeroSection = () => {
-  const words = ["Frontend Developer", "MySQL", "Python", "C/C++"];
+  const words = [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "React.js",
+    "Redux",
+    "Context API",
+    "Next.js",
+    "MySQL",
+    "Python",
+  ];
 
   const textRef = useRef();
   const typingSpeed = 50;
