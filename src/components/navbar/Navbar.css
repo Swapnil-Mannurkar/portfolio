@@ -1,6 +1,7 @@
 .logo .name,
 .link,
-.navItems button a, h4 {
+.navItems button a,
+h4 {
   background-image: linear-gradient(to right, #fff 0%, #666666 75%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -41,14 +42,14 @@
 .navItems {
   display: flex;
   align-items: center;
-  padding-left: 11.5rem;
 }
 
 .navItems ul {
   list-style: none;
   display: flex;
   flex: 1;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 2.5rem;
   margin-right: 2.5rem;
 }
 
@@ -71,12 +72,9 @@
     width: 95%;
   }
 
-  .navItems {
-    padding-left: 10.5rem;
-  }
-
   .navItems ul {
-    margin-right: 2.5rem;
+    gap: 2rem;
+    margin-right: 2rem;
   }
 }
 
