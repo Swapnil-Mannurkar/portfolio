@@ -1,8 +1,8 @@
 [
   {
-    "icon": "FaLaptop",
-    "title": "Freelance",
-    "details": "I have worked as a freelancer for a year and two months, during which my team and I have developed several websites."
+    "icon": "FaGlobe",
+    "title": "Associate Frontend Developer",
+    "details": "I'm currently working as a associate frontend developer at TokSkill."
   },
   {
     "icon": "FaNetworkWired",
@@ -10,8 +10,13 @@
     "details": "Throughout my 8-month internship as a frontend web developer at TokSkill, my responsibility involved creating webpages."
   },
   {
-    "icon": "FaGlobe",
-    "title": "Frontend Web Developer",
+    "icon": "FaLaptop",
+    "title": "Freelance",
+    "details": "I have worked as a freelancer for a year and two months, during which my team and I have developed several websites."
+  },
+  {
+    "icon": "FaHuman",
+    "title": "Overall",
     "details": "I possess a combined experience of two years, encompassing both freelancing and an internship."
   }
 ]

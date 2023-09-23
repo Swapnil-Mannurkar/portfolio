@@ -17,8 +17,16 @@
   gap: 1rem;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (min-width: 501px) and (max-width: 920px) {
   .certificateCardsContainer {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .certificateCardsContainer {
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
   }
 }
